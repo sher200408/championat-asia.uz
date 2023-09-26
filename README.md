@@ -1,1 +1,1 @@
-# championat-asia.uz
+# championat-asia
