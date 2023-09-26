@@ -1,1 +1,1 @@
-# championat-asia
+# championat-asia.js
