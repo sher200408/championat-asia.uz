@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Noto+Sans:ital,wght@0,400;0,500;1,500&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background: rgba(0, 0, 255, 0.689);
+}
+.conatiner {
+    max-width: 10024px;
+    width: 100%;
+}
+.nav {
+    height: 30px;
+    width: 100%;
+    padding: 6px;
+    background:black;
+}
+ul{
+    width: 40%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 58px;
+    position: relative;
+    top: 0;
+}
+li:hover{
+    color: blue;
+}
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.gool {
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.btn {
+    padding: 8px 30px 8px 30px ;
+}
+section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div .img1 {
+    width: 900px;
+    height: 500px;
+    opacity:0;
+    border-radius: 20px; 
+    transition: 0.1s; /*Скорость перехода состояния элемента*/
+    animation: show 0.1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+    
+}
+@keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+.div .img2 {
+    width: 900px;
+    height: 500px;
+    display: none;
+    border-radius: 20px;
+    opacity:0;
+    transition: 0.1s; /*Скорость перехода состояния элемента*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+
+.div .img3 {
+    width: 900px;
+    height: 500px;
+    display: none;
+    border-radius: 20px;
+    opacity:0;
+    transition: 0.1s; /*Скорость перехода состояния элемента*/
+    animation: show 1s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s; /* Задержка перед началом */
+}
+.col img {
+    width: 300px;
+    height: 200px; 
+}
+.col button {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}.col button:hover {
+    background-color: white;
+    color: black;
+}
+.col{
+    color: white;
+}
+.user {
+    display: flex;
+    
+
+}
+span {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid rgb(147, 120, 70);
+    position: relative;
+    top: -500px;
+    left: 750px;
+    margin: 3px;
+    margin-top: 10px;
+}
+span:hover {
+    background-color:rgb(147, 120, 70);
+    border: 3px solid white;
+    width: 15px;
+    height: 15px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.jok{
+    width: 900px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.col2 {
+    text-align: center;
+    
+}
+.lok{
+    margin-top: 40px;
+}
+.col2 p {
+    font-size: 12px;
+}
+
+
